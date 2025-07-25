@@ -1,2 +1,2 @@
-# RepMI
- The first EEG foundation model explicitly tailored  for the motor imagery (MI) paradigm.
+# Do BCIs Really Need One Generalized Model? RepMI: Toward Paradigm-Specific EEG Representations for Motor Imagery
+We will release our code after accepted.
