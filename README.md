@@ -9,7 +9,7 @@ We will release our code after accepted.
 
 ## Resultes
 
-![results]([https://github.com/Dingkun0817/SDDA/blob/main/SDDA_approach.jpg](https://github.com/staraink/RepMI/blob/main/results.jpg))
+![results]([https://github.com/staraink/RepMI/blob/main/results.jpg))
 
 ## Datasets Download
 
