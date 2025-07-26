@@ -7,7 +7,7 @@ We will release our code after accepted.
 
 ## Architecture of RepMI
 
-## Resultes
+## Results
 
 ![results](https://github.com/staraink/RepMI/blob/main/results.jpg)
 
