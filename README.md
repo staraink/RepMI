@@ -9,7 +9,7 @@ We will release our code after accepted.
 
 ## Resultes
 
-![results]([https://github.com/staraink/RepMI/blob/main/results.jpg))
+![results](https://github.com/staraink/RepMI/blob/main/results.jpg)
 
 ## Datasets Download
 
