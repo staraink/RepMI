@@ -9,6 +9,9 @@ We introduced RepMI, the first EEG foundation model specifically designed for MI
 - We develop an efficient pretraining approach combining masked token reconstruction and supervised MI classification. This strategy enables the model to acquire robust, generalizable temporal-spatial EEG representations.
 -  Extensive experiments on five public MI datasets including 47 downstream subjects demonstrate that RepMI achieves state-of-the-art decoding accuracy (see Fig.~\ref{fig:radar} (b)). Moreover, RepMI requires significantly fewer calibration trials (fewer than 30 trials per class) and rapidly converges in a few epochs, highlighting its practical utility and effectiveness.
 ## Architecture of RepMI
+![High-quality_Data_Construction](https://github.com/staraink/RepMI/blob/main/High-quality_Data_Construction.jpg)
+
+![RepMI](https://github.com/staraink/RepMI/blob/main/RepMI.jpg)
 
 ## Results
 
