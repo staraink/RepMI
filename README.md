@@ -34,7 +34,7 @@ In this paper, seven datasets are used for pretraining, and five downstream data
 * [AlexMI](https://moabb.neurotechx.com/docs/generated/moabb.datasets.AlexMI.html#moabb.datasets.AlexMI)
 * [BNCI2014001-4](https://moabb.neurotechx.com/docs/generated/moabb.datasets.BNCI2014_001.html#moabb.datasets.BNCI2014_001)
 
-The introduction are summarized as follows:
+The introduction of these datasets are summarized as follows:
 
 ![Datasets](https://github.com/staraink/RepMI/blob/main/Datasets.jpg)
 
