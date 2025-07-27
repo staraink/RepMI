@@ -23,14 +23,15 @@ We introduced RepMI, the first EEG foundation model specifically designed for MI
 In this paper, I have implemented nine EEG specialist models and five generalized models
 
 ### EEG specialist models
-* [DAN](https://proceedings.mlr.press/v37/long15): Learning Transferable Features with Deep Adaptation Networks (ICML2015)
-* [DANN](http://www.jmlr.org/papers/v17/15-239.html): Domain-Adversarial Training of Neural Networks (JMLR2016)
-* [CDAN](https://proceedings.neurips.cc/paper/2018/hash/ab88b15733f543179858600245108dd8-Abstract.html): Conditional Adversarial Domain Adaptation (NIPS2018)
-* [JAN](http://proceedings.mlr.press/v70/long17a.html): Deep Transfer Learning with Joint Adaptation Networks (PMLR2017)
-* [MDD](https://proceedings.mlr.press/v97/zhang19i.html?ref=https://codemonkey): Bridging Theory and Algorithm for Domain Adaptation (PMLR2019)
-* [MCC](https://link.springer.com/chapter/10.1007/978-3-030-58589-1_28): Minimum Class Confusion for Versatile Domain Adaptation (ECCV2020)
-* [SHOT](https://ieeexplore.ieee.org/abstract/document/9512429/): Source Data-Absent Unsupervised Domain Adaptation Through Hypothesis Transfer and Labeling Transfer (PAMI2021)
-* [ISFDA](https://dl.acm.org/doi/abs/10.1145/3474085.3475487): Imbalanced Source-free Domain Adaptation (ACM MM2021)
+* [CSP-LDA](https://ieeexplore.ieee.org/abstract/document/4408441): Optimizing Spatial Filters for Robust EEG Single-trial Analysis (IEEE Signal Processing Magazine 2007)
+* [ShallowConv](https://onlinelibrary.wiley.com/doi/full/10.1002/hbm.23730): Deep Learning with Convolutional Neural Networks for EEG Decoding and Visualization (HBM 2017)
+* [DeepConv](https://onlinelibrary.wiley.com/doi/full/10.1002/hbm.23730): Deep Learning with Convolutional Neural Networks for EEG Decoding and Visualization (HBM 2017)
+* [EEGNet]([http://proceedings.mlr.press/v70/long17a.html](https://iopscience.iop.org/article/10.1088/1741-2552/aace8c/meta?casa_token=gbHBznN-MjgAAAAA:umQc5RN4DQ_zFDAhU5yIF4lR3D1gs5ZCv0nbdtqnL-skW7K8EphRQLuRV-L-q2pFNMB3NnahCP8uXKPvwdXvPjFdcqGR)): EEGNet: A Compact Convolutional Neural Network for EEG-based Brain–computer Interfaces (JNE 2018)
+* [IFNet](https://ieeexplore.ieee.org/abstract/document/10070810): IFNet: An Interactive Frequency Convolutional Neural Network for Enhancing Motor Imagery Decoding From EEG (TNSRE 2023)
+* [ADFCNN](https://ieeexplore.ieee.org/abstract/document/10356088): ADFCNN: Attention-Based Dual-Scale Fusion Convolutional Neural Network for Motor Imagery Brain–Computer Interface (TNSRE 2023)
+* [Conformer](https://ieeexplore.ieee.org/abstract/document/9991178): EEG Conformer: Convolutional Transformer for EEG Decoding and Visualization (TNSRE 2022)
+* [FBCNet](https://arxiv.org/abs/2104.01233): FBCNet: A Multi-view Convolutional Neural Network for Brain-Computer Interface (Arxiv 2021)
+* [EDPNet]([https://dl.acm.org/doi/abs/10.1145/3474085.3475487](https://scholar.google.cz/scholar?hl=zh-CN&as_sdt=0%2C5&q=Edpnet%3A+An+efficient+dual+prototype+network+for+motor+imagery+eeg+decoding&btnG=)): EDPNet: An Efficient Dual Prototype Network for Motor Imagery EEG Decoding (Arxiv 2024)
 
 ### EEG specialist models
 * [DAN](https://proceedings.mlr.press/v37/long15): Learning Transferable Features with Deep Adaptation Networks (ICML2015)
