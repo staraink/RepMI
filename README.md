@@ -1,5 +1,6 @@
 # 🧠MIRepNet: A pipeline and foundation model for EEG-based motor imagery classification
-MIRepNet, the first EEG foundation model tailored explicitly for motor imagery (MI), achieving state-of-the-art performance across five public datasets and significantly outperforming existing specialized and generalized EEG models, even with fewer than 30 training trials per class.We will release our code after accepted.
+**MIRepNet**, the first EEG foundation model tailored explicitly for motor imagery (MI), achieving **SOTA** performance across five public datasets and significantly outperforming existing specialized and generalized EEG models, even with fewer than 30 training trials per class.
+We will release our code soon.
 ![RepMI](https://github.com/staraink/RepMI/blob/main/RepMI.jpg)
 
 ## 📌 Abstract
