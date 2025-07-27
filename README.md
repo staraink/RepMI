@@ -1,4 +1,4 @@
-# MIRepNet: A pipeline and foundation model for EEG-based motor imagery classification
+# 🧠MIRepNet: A pipeline and foundation model for EEG-based motor imagery classification
 We will release our code after accepted.
 
 ## Overview
