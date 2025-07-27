@@ -18,7 +18,7 @@ Brain-computer interfaces (BCIs) enable direct communication between the brain a
 
 ## 📥 Datasets Download
 
-In this paper, seven datasets are used for pretraining, and five downstream datasets are employed to validate RepMI. All datasets can be found in * [MOABB](https://moabb.neurotechx.com/docs/dataset_summary.html#motor-imagery).
+In this paper, seven datasets are used for pretraining, and five downstream datasets are employed to validate RepMI. All datasets can be found in [MOABB](https://moabb.neurotechx.com/docs/dataset_summary.html#motor-imagery).
 
 The introduction of these datasets are summarized as follows:
 
