@@ -33,7 +33,11 @@ In this paper, seven datasets are used for pretraining, and five downstream data
 * [BNCI2014004](https://moabb.neurotechx.com/docs/generated/moabb.datasets.BNCI2014_004.html#moabb.datasets.BNCI2014_004)
 * [AlexMI](https://moabb.neurotechx.com/docs/generated/moabb.datasets.AlexMI.html#moabb.datasets.AlexMI)
 * [BNCI2014001-4](https://moabb.neurotechx.com/docs/generated/moabb.datasets.BNCI2014_001.html#moabb.datasets.BNCI2014_001)
+
+The introduction are summarized as follows:
+
 ![Datasets](https://github.com/staraink/RepMI/blob/main/Datasets.jpg)
+
 ## Baselines
 In this paper, I have implemented nine EEG specialist models and five generalized models ⬇
 
