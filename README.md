@@ -20,6 +20,25 @@ We introduced RepMI, the first EEG foundation model specifically designed for MI
 ## Datasets Download
 
 ## Baselines
+In this paper, I have implemented nine EEG specialist models and five generalized models
+
+### EEG specialist models
+* [DAN](https://proceedings.mlr.press/v37/long15): Learning Transferable Features with Deep Adaptation Networks (ICML2015)
+* [DANN](http://www.jmlr.org/papers/v17/15-239.html): Domain-Adversarial Training of Neural Networks (JMLR2016)
+* [CDAN](https://proceedings.neurips.cc/paper/2018/hash/ab88b15733f543179858600245108dd8-Abstract.html): Conditional Adversarial Domain Adaptation (NIPS2018)
+* [JAN](http://proceedings.mlr.press/v70/long17a.html): Deep Transfer Learning with Joint Adaptation Networks (PMLR2017)
+* [MDD](https://proceedings.mlr.press/v97/zhang19i.html?ref=https://codemonkey): Bridging Theory and Algorithm for Domain Adaptation (PMLR2019)
+* [MCC](https://link.springer.com/chapter/10.1007/978-3-030-58589-1_28): Minimum Class Confusion for Versatile Domain Adaptation (ECCV2020)
+* [SHOT](https://ieeexplore.ieee.org/abstract/document/9512429/): Source Data-Absent Unsupervised Domain Adaptation Through Hypothesis Transfer and Labeling Transfer (PAMI2021)
+* [ISFDA](https://dl.acm.org/doi/abs/10.1145/3474085.3475487): Imbalanced Source-free Domain Adaptation (ACM MM2021)
+
+### EEG specialist models
+* [DAN](https://proceedings.mlr.press/v37/long15): Learning Transferable Features with Deep Adaptation Networks (ICML2015)
+* [DANN](http://www.jmlr.org/papers/v17/15-239.html): Domain-Adversarial Training of Neural Networks (JMLR2016)
+* [CDAN](https://proceedings.neurips.cc/paper/2018/hash/ab88b15733f543179858600245108dd8-Abstract.html): Conditional Adversarial Domain Adaptation (NIPS2018)
+* [JAN](http://proceedings.mlr.press/v70/long17a.html): Deep Transfer Learning with Joint Adaptation Networks (PMLR2017)
+* [MDD](https://proceedings.mlr.press/v97/zhang19i.html?ref=https://codemonkey): Bridging Theory and Algorithm for Domain Adaptation (PMLR2019)
+
 
 ## Contact
 For any questions or collaborations, please feel free to reach out via liudingkun@hust.edu.cn / zhu_chen@hust.edu.cn or open an issue in this repository.
