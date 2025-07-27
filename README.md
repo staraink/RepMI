@@ -20,9 +20,9 @@ We introduced RepMI, the first EEG foundation model specifically designed for MI
 ## Datasets Download
 
 ## Baselines
-In this paper, I have implemented nine EEG specialist models and five generalized models
+In this paper, I have implemented nine EEG specialist models and five generalized models ⬇
 
-### EEG specialist models
+### (1) EEG specialist models
 * [CSP-LDA](https://ieeexplore.ieee.org/abstract/document/4408441): Optimizing Spatial Filters for Robust EEG Single-trial Analysis (IEEE Signal Processing Magazine 2007)
 * [ShallowConv](https://onlinelibrary.wiley.com/doi/full/10.1002/hbm.23730): Deep Learning with Convolutional Neural Networks for EEG Decoding and Visualization (HBM 2017)
 * [DeepConv](https://onlinelibrary.wiley.com/doi/full/10.1002/hbm.23730): Deep Learning with Convolutional Neural Networks for EEG Decoding and Visualization (HBM 2017)
@@ -33,7 +33,7 @@ In this paper, I have implemented nine EEG specialist models and five generalize
 * [FBCNet](https://arxiv.org/abs/2104.01233): FBCNet: A Multi-view Convolutional Neural Network for Brain-Computer Interface (Arxiv 2021)
 * [EDPNet]([https://dl.acm.org/doi/abs/10.1145/3474085.3475487](https://scholar.google.cz/scholar?hl=zh-CN&as_sdt=0%2C5&q=Edpnet%3A+An+efficient+dual+prototype+network+for+motor+imagery+eeg+decoding&btnG=)): EDPNet: An Efficient Dual Prototype Network for Motor Imagery EEG Decoding (Arxiv 2024)
 
-### EEG generalized models
+### (2) EEG generalized models
 * [BIOT](https://proceedings.neurips.cc/paper_files/paper/2023/hash/f6b30f3e2dd9cb53bbf2024402d02295-Abstract-Conference.html): BIOT: Biosignal Transformer for Cross-data Learning in the Wild (NIPS 2023)
 * [BENDR](https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2021.653659/full): BENDR: Using Transformers and a Contrastive Self-Supervised Learning Task to Learn From Massive Amounts of EEG Data (Front.hum.neurosci 2021)
 * [LaBraM](https://openreview.net/forum?id=QzTpTRVtrP): Large Brain Model for Learning Generic Representations with Tremendous EEG Data in BCI (ICLR 2024)
