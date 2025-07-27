@@ -18,20 +18,7 @@ Brain-computer interfaces (BCIs) enable direct communication between the brain a
 
 ## 📥 Datasets Download
 
-In this paper, seven datasets are used for pretraining, and five downstream datasets are employed to validate RepMI.
-
-* [BNCI2014002](https://moabb.neurotechx.com/docs/generated/moabb.datasets.BNCI2014_002.html#moabb.datasets.BNCI2014_002)
-* [PhysionetMI](https://moabb.neurotechx.com/docs/generated/moabb.datasets.PhysionetMI.html#moabb.datasets.PhysionetMI)
-* [Dreyer2023](https://moabb.neurotechx.com/docs/generated/moabb.datasets.Dreyer2023.html#moabb.datasets.Dreyer2023)
-* [Weibo2014](https://moabb.neurotechx.com/docs/generated/moabb.datasets.Weibo2014.html#moabb.datasets.Weibo2014)
-* [Zhou2016](https://moabb.neurotechx.com/docs/generated/moabb.datasets.Zhou2016.html#moabb.datasets.Zhou2016)
-* [Lee2019](https://moabb.neurotechx.com/docs/generated/moabb.datasets.Lee2019_MI.html#moabb.datasets.Lee2019_MI)
-* [Cho2017](https://moabb.neurotechx.com/docs/generated/moabb.datasets.Cho2017.html#moabb.datasets.Cho2017)
-* [BNCI2014001](https://moabb.neurotechx.com/docs/generated/moabb.datasets.BNCI2014_001.html#moabb.datasets.BNCI2014_001)
-* [BNCI2015001](https://moabb.neurotechx.com/docs/generated/moabb.datasets.BNCI2015_001.html#moabb.datasets.BNCI2015_001)
-* [BNCI2014004](https://moabb.neurotechx.com/docs/generated/moabb.datasets.BNCI2014_004.html#moabb.datasets.BNCI2014_004)
-* [AlexMI](https://moabb.neurotechx.com/docs/generated/moabb.datasets.AlexMI.html#moabb.datasets.AlexMI)
-* [BNCI2014001-4](https://moabb.neurotechx.com/docs/generated/moabb.datasets.BNCI2014_001.html#moabb.datasets.BNCI2014_001)
+In this paper, seven datasets are used for pretraining, and five downstream datasets are employed to validate RepMI. All datasets can be found in * [MOABB](https://moabb.neurotechx.com/docs/dataset_summary.html#motor-imagery).
 
 The introduction of these datasets are summarized as follows:
 
