@@ -31,7 +31,7 @@ In this paper, I have implemented nine EEG specialist models and five generalize
 * [ADFCNN](https://ieeexplore.ieee.org/abstract/document/10356088): ADFCNN: Attention-Based Dual-Scale Fusion Convolutional Neural Network for Motor Imagery Brain–Computer Interface (TNSRE 2023)
 * [Conformer](https://ieeexplore.ieee.org/abstract/document/9991178): EEG Conformer: Convolutional Transformer for EEG Decoding and Visualization (TNSRE 2022)
 * [FBCNet](https://arxiv.org/abs/2104.01233): FBCNet: A Multi-view Convolutional Neural Network for Brain-Computer Interface (Arxiv 2021)
-* [EDPNet](https://arxiv.org/abs/2104.01233): EDPNet: An Efficient Dual Prototype Network for Motor Imagery EEG Decoding (Arxiv 2024)
+* [EDPNet](https://scholar.google.cz/scholar?hl=zh-CN&as_sdt=0%2C5&q=EDPNet%3A+An+Efficient+Dual+Prototype+Network+for+Motor+Imagery+EEG+Decoding&btnG=): EDPNet: An Efficient Dual Prototype Network for Motor Imagery EEG Decoding (Arxiv 2024)
 
 ### (2) EEG generalized models
 * [BIOT](https://proceedings.neurips.cc/paper_files/paper/2023/hash/f6b30f3e2dd9cb53bbf2024402d02295-Abstract-Conference.html): BIOT: Biosignal Transformer for Cross-data Learning in the Wild (NIPS 2023)
