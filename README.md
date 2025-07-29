@@ -10,6 +10,12 @@ Brain-computer interfaces (BCIs) enable direct communication between the brain a
 - 🎯 We develop an efficient pretraining approach combining masked token reconstruction and supervised MI classification. This strategy enables the model to acquire robust, generalizable temporal-spatial EEG representations.
 - 📊 Extensive experiments on five public MI datasets including 47 downstream subjects demonstrate that RepMI achieves state-of-the-art decoding accuracy. Moreover, RepMI requires significantly fewer calibration trials (fewer than 30 trials per class) and rapidly converges in a few epochs, highlighting its practical utility and effectiveness.
 
+## 💻 Execution
+
+To run the code, use the following command:
+
+```bash
+python main.py --dataset your_dataset --epochs 50 --batch_size 32
 
 ## 📈 Results
 
