@@ -21,7 +21,7 @@ Brain-computer interfaces (BCIs) enable direct communication between the brain a
 - 🎯 We develop an efficient pretraining approach combining masked token reconstruction and supervised MI classification. This strategy enables the model to acquire robust, generalizable temporal-spatial EEG representations.
 - 📊 Extensive experiments on five public MI datasets including 47 downstream subjects demonstrate that RepMI achieves state-of-the-art decoding accuracy. Moreover, RepMI requires significantly fewer calibration trials (fewer than 30 trials per class) and rapidly converges in a few epochs, highlighting its practical utility and effectiveness.
 
-## 💻 Execution
+## 💻 Deployment
 
 ### Environment Install
 <details>
@@ -58,7 +58,7 @@ Code for other datasets will be released.
 
 In this paper, seven datasets are used for pretraining, and five downstream datasets are employed to validate RepMI. All datasets can be found in [MOABB](https://moabb.neurotechx.com/docs/dataset_summary.html#motor-imagery).
 
-The introduction of these datasets are summarized as follows:
+The introduction of these datasets is summarized as follows:
 
 ![Datasets](asset/Datasets.jpg)
 
@@ -85,7 +85,7 @@ In this paper, I have implemented nine EEG specialist models and five generalize
 
 
 ## 📩 Contact
-For any questions or collaborations, please feel free to reach out via liudingkun@hust.edu.cn / zhu_chen@hust.edu.cn or open an issue in this repository.
+For any questions or collaborations, please feel free to reach out via `liudingkun@hust.edu.cn` / `zhu_chen@hust.edu.cn` or open an issue in this repository.
 
 ## Citation
 If you find our repo or MIRepNet useful for your research, please cite us:
@@ -98,6 +98,3 @@ If you find our repo or MIRepNet useful for your research, please cite us:
   archivePrefix = {arXiv},
 }
 ```
-
-## ⭐ Stargazers
-[![Stargazers repo roster for @staraink/MIRepNet](https://reporoster.com/stars/staraink/MIRepNet)](https://github.com/staraink/MIRepNet/stargazers)
