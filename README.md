@@ -10,7 +10,24 @@ Brain-computer interfaces (BCIs) enable direct communication between the brain a
 - 🎯 We develop an efficient pretraining approach combining masked token reconstruction and supervised MI classification. This strategy enables the model to acquire robust, generalizable temporal-spatial EEG representations.
 - 📊 Extensive experiments on five public MI datasets including 47 downstream subjects demonstrate that RepMI achieves state-of-the-art decoding accuracy. Moreover, RepMI requires significantly fewer calibration trials (fewer than 30 trials per class) and rapidly converges in a few epochs, highlighting its practical utility and effectiveness.
 
+## 💻 Execution
 
+To configure the code environment, use the following command:
+```bash
+git clone https://github.com/yourusername/MIRepNet.git
+cd MIRepNet
+conda create -n MIRepNet python=3.8
+conda activate MIRepNet
+conda install pytorch==2.2.0 torchvision==0.17.0 torchaudio==2.2.0 pytorch-cuda=11.8 -c pytorch -c nvidia
+pip install -r requirements.txt
+```
+MIRepNet should be placed into ```./weight/MIRepNet.pth```
+To run the code, use the following command:
+```bash
+python finetune.py --dataset_name BNCI2014004 --model_name MIRepNet
+```
+
+Code for other datasets will be released.
 ## 📈 Results
 
 ![results](https://github.com/staraink/RepMI/blob/main/results.jpg)
