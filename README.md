@@ -23,6 +23,7 @@ Brain-computer interfaces (BCIs) enable direct communication between the brain a
 
 ## 💻 Execution
 
+### Environment Install
 <details>
 <summary>Install on Environment</summary> <br/> 
   
@@ -39,8 +40,10 @@ pip install -r requirements.txt
 
 </details>
 
+### Pretrained Model
 MIRepNet should be placed into `./weight/MIRepNet.pth`.
 
+### Finetune
 To run the code, use the following command:
 ```bash
 python finetune.py --dataset_name BNCI2014004 --model_name MIRepNet
