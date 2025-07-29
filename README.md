@@ -1,16 +1,19 @@
 # **🧠MIRepNet: A Pipeline and Foundation Model for EEG-Based Motor Imagery Classification**
-![issues](https://img.shields.io/github/issues/staraink/MIRepNet/)
-![forks](https://img.shields.io/github/forks/staraink/MIRepNet/?style=flat&color=orange)
-![stars](https://img.shields.io/github/stars/staraink/MIRepNet/?style=flat&color=red)
-![license](https://img.shields.io/github/license/staraink/MIRepNet/)
+![issues](https://img.shields.io/github/issues/staraink/MIRepNet)
+![forks](https://img.shields.io/github/forks/staraink/MIRepNet?style=flat&color=orange)
+![stars](https://img.shields.io/github/stars/staraink/MIRepNet?style=flat&color=red)
+![license](https://img.shields.io/github/license/staraink/MIRepNet)
 
-![RepMI](https://github.com/staraink/RepMI/blob/main/RepMI.jpg)
+## :speech_balloon: Annoucement
+- [2025.07.29] 🚩 **News**  The manuscript of MIRepNet can be found in [this](https://arxiv.org/abs/2507.20254).
 
-**MIRepNet**, the first EEG foundation model tailored explicitly for motor imagery (MI), achieving **SOTA** performance across five public datasets and significantly outperforming existing specialized and generalized EEG models, even with fewer than 30 training trials per class.
+- [2025.07.26] We propose **MIRepNet**, the first EEG foundation model tailored explicitly for motor imagery (MI), achieving **SOTA** performance across five public datasets and significantly outperforming existing specialized and generalized EEG models, even with fewer than 30 training trials per class.
 
 
 ## 📌 Abstract
 Brain-computer interfaces (BCIs) enable direct communication between the brain and external devices. Recent EEG foundation models aim to learn generalized representations across diverse BCI paradigms. However, these approaches overlook fundamental paradigm-specific neurophysiological distinctions, limiting their generalization ability. Importantly, in practical BCI deployments, the specific paradigm such as motor imagery (MI) for stroke rehabilitation or assistive robotics, is generally determined prior to data acquisition. To address these issues, we propose MIRepNet, the first EEG foundation model explicitly tailored for the MI paradigm. MIRepNet comprises a high-quality EEG preprocessing pipeline incorporating a neurophysiologically-informed channel template, adaptable to EEG headsets with arbitrary electrode configurations. Furthermore, we introduce a hybrid pretraining strategy that combines self-supervised masked token reconstruction and supervised MI classification, facilitating rapid adaptation and accurate decoding on novel downstream MI tasks with fewer than 30 trials per class. Extensive evaluations across five public MI datasets demonstrate that MIRepNet consistently achieves state-of-the-art performance, significantly outperforming both specialized and generalized EEG models. We will release our code soon.
+
+![RepMI](https://github.com/staraink/RepMI/blob/main/RepMI.jpg)
 
 ## 🚀  Contributions
 - 🧩 We introduce MIRepNet, the first paradigm-specific foundation model specifically tailored explicitly for MI tasks. By capturing MI-specific neurophysiological features, MIRepNet effectively learns generalizable representations for MI decoding.
@@ -72,3 +75,18 @@ In this paper, I have implemented nine EEG specialist models and five generalize
 
 ## 📩 Contact
 For any questions or collaborations, please feel free to reach out via liudingkun@hust.edu.cn / zhu_chen@hust.edu.cn or open an issue in this repository.
+
+## Citation
+If you find our repo or MIRepNet useful for your research, please cite us:
+```
+@misc{liu2025MIRepNet,
+  title         = {MIRepNet: A Pipeline and Foundation Model for EEG-Based Motor Imagery Classification}, 
+  author        = {Dingkun Liu and Zhu Chen and Jingwei Luo and Shijie Lian and Dongrui Wu},
+  year          = {2025},
+  eprint        = {2507.20254},
+  archivePrefix = {arXiv},
+}
+```
+
+## ⭐ Stargazers
+[![Stargazers repo roster for @staraink/MIRepNet](https://reporoster.com/stars/staraink/MIRepNet)](https://github.com/staraink/MIRepNet/stargazers)
