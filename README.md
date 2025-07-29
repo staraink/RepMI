@@ -39,7 +39,8 @@ pip install -r requirements.txt
 
 </details>
 
-MIRepNet should be placed into ```./weight/MIRepNet.pth```
+MIRepNet should be placed into `./weight/MIRepNet.pth`.
+
 To run the code, use the following command:
 ```bash
 python finetune.py --dataset_name BNCI2014004 --model_name MIRepNet
