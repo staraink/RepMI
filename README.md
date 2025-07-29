@@ -12,7 +12,7 @@ Brain-computer interfaces (BCIs) enable direct communication between the brain a
 
 ## 💻 Execution
 
-To configure the code environment, use the following command:
+To configure the code environment（```python>=3.8,torch>=2.2.0```), use the following command:
 ```bash
 git clone https://github.com/yourusername/MIRepNet.git
 cd MIRepNet
