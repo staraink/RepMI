@@ -1,4 +1,4 @@
-# **🧠MIRepNet: A Pipeline and Foundation Model for EEG-Based Motor Imagery Classification**
+# **🧠MIRepNet**
 ![issues](https://img.shields.io/github/issues/staraink/MIRepNet)
 ![forks](https://img.shields.io/github/forks/staraink/MIRepNet?style=flat&color=orange)
 ![stars](https://img.shields.io/github/stars/staraink/MIRepNet?style=flat&color=red)
