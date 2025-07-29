@@ -16,7 +16,7 @@ To configure the code environment, use the following command:
 ```bash
 git clone https://github.com/yourusername/MIRepNet.git
 cd MIRepNet
-conda create -n MIRepNet python=3.8
+conda create -n MIRepNet python>=3.8
 conda activate MIRepNet
 conda install pytorch==2.2.0 torchvision==0.17.0 torchaudio==2.2.0 pytorch-cuda=11.8 -c pytorch -c nvidia
 pip install -r requirements.txt
