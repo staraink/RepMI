@@ -15,7 +15,7 @@ Brain-computer interfaces (BCIs) enable direct communication between the brain a
 To run the code, use the following command:
 
 ```bash
-python main.py --dataset your_dataset --epochs 50 --batch_size 32
+python finetune.py --dataset_name BNCI2014004 --model_name MIRepNet
 ```
 
 Code for other datasets will be released.
