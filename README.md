@@ -21,6 +21,7 @@ conda activate MIRepNet
 conda install pytorch==2.2.0 torchvision==0.17.0 torchaudio==2.2.0 pytorch-cuda=11.8 -c pytorch -c nvidia
 pip install -r requirements.txt
 ```
+MIRepNet should be placed into ```./weight/MIRepNet.pth```
 To run the code, use the following command:
 ```bash
 python finetune.py --dataset_name BNCI2014004 --model_name MIRepNet
