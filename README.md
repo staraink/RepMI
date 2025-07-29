@@ -13,7 +13,7 @@
 ## 📌 Abstract
 Brain-computer interfaces (BCIs) enable direct communication between the brain and external devices. Recent EEG foundation models aim to learn generalized representations across diverse BCI paradigms. However, these approaches overlook fundamental paradigm-specific neurophysiological distinctions, limiting their generalization ability. Importantly, in practical BCI deployments, the specific paradigm such as motor imagery (MI) for stroke rehabilitation or assistive robotics, is generally determined prior to data acquisition. To address these issues, we propose MIRepNet, the first EEG foundation model explicitly tailored for the MI paradigm. MIRepNet comprises a high-quality EEG preprocessing pipeline incorporating a neurophysiologically-informed channel template, adaptable to EEG headsets with arbitrary electrode configurations. Furthermore, we introduce a hybrid pretraining strategy that combines self-supervised masked token reconstruction and supervised MI classification, facilitating rapid adaptation and accurate decoding on novel downstream MI tasks with fewer than 30 trials per class. Extensive evaluations across five public MI datasets demonstrate that MIRepNet consistently achieves state-of-the-art performance, significantly outperforming both specialized and generalized EEG models. We will release our code soon.
 
-![RepMI](https://github.com/staraink/RepMI/blob/main/RepMI.jpg)
+![RepMI](asset/RepMI.jpg)
 
 ## 🚀  Contributions
 - 🧩 We introduce MIRepNet, the first paradigm-specific foundation model specifically tailored explicitly for MI tasks. By capturing MI-specific neurophysiological features, MIRepNet effectively learns generalizable representations for MI decoding.
@@ -48,7 +48,7 @@ python finetune.py --dataset_name BNCI2014004 --model_name MIRepNet
 Code for other datasets will be released.
 ## 📈 Results
 
-![results](https://github.com/staraink/RepMI/blob/main/results.jpg)
+![results](asset/Results.jpg)
 
 ## 📥 Datasets Download
 
@@ -56,7 +56,7 @@ In this paper, seven datasets are used for pretraining, and five downstream data
 
 The introduction of these datasets are summarized as follows:
 
-![Datasets](https://github.com/staraink/RepMI/blob/main/Datasets.jpg)
+![Datasets](asset/Datasets.jpg)
 
 ## 🔍 Baselines
 In this paper, I have implemented nine EEG specialist models and five generalized models ⬇
