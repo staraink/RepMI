@@ -23,7 +23,11 @@ Brain-computer interfaces (BCIs) enable direct communication between the brain a
 
 ## 💻 Execution
 
+<details>
+<summary>Install on Environment</summary> <br/> 
+  
 To configure the code environment（```python>=3.8,torch>=2.2.0```), use the following command:
+
 ```bash
 git clone https://github.com/yourusername/MIRepNet.git
 cd MIRepNet
@@ -32,6 +36,9 @@ conda activate MIRepNet
 conda install pytorch==2.2.0 torchvision==0.17.0 torchaudio==2.2.0 pytorch-cuda=11.8 -c pytorch -c nvidia
 pip install -r requirements.txt
 ```
+
+</details>
+
 MIRepNet should be placed into ```./weight/MIRepNet.pth```
 To run the code, use the following command:
 ```bash
