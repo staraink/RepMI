@@ -16,7 +16,9 @@ To run the code, use the following command:
 
 ```bash
 python main.py --dataset your_dataset --epochs 50 --batch_size 32
+```
 
+Code for other datasets will be released.
 ## 📈 Results
 
 ![results](https://github.com/staraink/RepMI/blob/main/results.jpg)
