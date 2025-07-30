@@ -42,6 +42,12 @@ pip install -r requirements.txt
 </details>
 
 ### Pretrained Model
+You can download our model weights using the following code:
+```
+from huggingface_hub import hf_hub_download
+
+filepath = hf_hub_download(repo_id="starself/MIRepNet", filename="MIRepNet.pth")
+```
 MIRepNet should be placed into `./weight/MIRepNet.pth`.
 
 ### Finetune
