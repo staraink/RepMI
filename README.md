@@ -2,6 +2,7 @@
 ![issues](https://img.shields.io/github/issues/staraink/MIRepNet)
 ![forks](https://img.shields.io/github/forks/staraink/MIRepNet?style=flat&color=orange)
 ![stars](https://img.shields.io/github/stars/staraink/MIRepNet?style=flat&color=red)
+[![huggingface](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-FFD21E)](https://huggingface.co/starself/MIRepNet)
 ![license](https://img.shields.io/github/license/staraink/MIRepNet)
 
 ## :speech_balloon: Annoucement
