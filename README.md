@@ -4,6 +4,7 @@
 ![stars](https://img.shields.io/github/stars/staraink/MIRepNet?style=flat&color=red)
 [![arXiv](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-FFD21E)](https://huggingface.co/starself/MIRepNet)
 [![huggingface](https://img.shields.io/badge/arXiv-2507.20254-b31b1b.svg)](https://arxiv.org/abs/2507.20254)
+![license](https://img.shields.io/github/license/staraink/MIRepNet)
 
 ## :speech_balloon: Annoucement
 - [2025.07.29] 🚩 **News**  The manuscript of MIRepNet can be found in [MIRepNet: A Pipeline and Foundation Model for EEG-Based Motor Imagery Classification](https://arxiv.org/abs/2507.20254).
