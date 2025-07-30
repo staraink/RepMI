@@ -52,7 +52,7 @@ python finetune.py --dataset_name BNCI2014004 --model_name MIRepNet
 Code for other datasets will be released.
 ## 📈 Results
 
-![results](asset/Results.jpg)
+![results](asset/Main_Results.jpg)
 
 ## 📥 Datasets Download
 
