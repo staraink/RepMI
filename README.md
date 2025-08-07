@@ -91,6 +91,26 @@ In this paper, I have implemented nine EEG specialist models and five generalize
 * [CBraMod](https://openreview.net/forum?id=NPNUHgHF2w): CBraMod: A Criss-Cross Brain Foundation Model for EEG Decoding (ICLR 2025)
 * [EEGPT](https://proceedings.neurips.cc/paper_files/paper/2024/hash/4540d267eeec4e5dbd9dae9448f0b739-Abstract-Conference.html): EEGPT: Pretrained Transformer for Universal and Reliable Representation of EEG Signals (NIPS 2024)
 
+### Model Sizes
+
+|     Model Category     |       Model       |  Parameters  |
+|:----------------------:|:-----------------:|:------------:|
+| **EEG Specialist Models**  | ShallowConv       |   31.6 K     |
+|                        | DeepConv          |   27.7 K     |
+|                        | EEGNet            |    1.9 K     |
+|                        | IFNet             |    9.9 K     |
+|                        | ADFCNN            |    3.9 K     |
+|                        | Conformer         |  146.8 K     |
+|                        | FBCNet            |    1.5 K     |
+|                        | EDPNet            |   30.6 K     |
+| **EEG Generalized Models** | BIOT              |    3.2 M     |
+|                        | BENDR             |    4.0 M     |
+|                        | LaBraM            |    5.8 M     |
+|                        | CBraMod           |    4.0 M     |
+|                        | EEGPT             |   25.0 M     |
+| **MI Foundation Model**| MIRepNet (Ours)   |    5.2 M     |
+
+
 
 ## 📩 Contact
 For any questions or collaborations, please feel free to reach out via `liudingkun@hust.edu.cn` / `zhu_chen@hust.edu.cn` or open an issue in this repository.
