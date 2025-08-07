@@ -2,8 +2,6 @@ from datetime import datetime
 import argparse
 from utils.utils import *
 
-
-
 def parse_args():
     """Parse command line arguments with all hyperparameters"""
     parser = argparse.ArgumentParser(description='EEG Classification with Configurable Hyperparameters')
