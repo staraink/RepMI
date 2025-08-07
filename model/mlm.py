@@ -11,7 +11,6 @@ from einops.layers.torch import Rearrange, Reduce
 import wandb
 import math
 
-
 class PatchEmbedding(nn.Module):
     def __init__(self, embed_dim=128, num_channels=45):
         super().__init__()
@@ -44,9 +43,6 @@ class PatchEmbedding(nn.Module):
         x = self.dropout(x)
         x = self.projection(x)
         return x
-
-
-
 
 class MultiHeadAttention(nn.Module):
     def __init__(self, emb_size, num_heads, dropout):
@@ -207,6 +203,3 @@ class mlm_mask(nn.Module):
                     param.requires_grad = False
         
         print(f"Loaded {len(pretrained_dict)}/{len(model_dict)} parameters from pretrained model")
-
-
-
