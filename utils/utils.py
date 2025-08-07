@@ -90,7 +90,7 @@ def process_and_replace_loader(loader,ischangechn,dataset):
     processed_data = EA(data_np).astype(np.float32)  
 
     if ischangechn:
-        print("处理前数据形状：", processed_data.shape)
+        print("before processed：", processed_data.shape)
         if dataset == 'BNCI2014001':
             channels_names = BNCI2014001_chn_names
         elif dataset == 'BNCI2014004':
@@ -102,7 +102,7 @@ def process_and_replace_loader(loader,ischangechn,dataset):
         elif dataset =='BNCI2015001':
             channels_names = BNCI2015001_chn_names
         processed_data = pad_missing_channels_diff(processed_data,use_channels_names,channels_names)
-        print("处理后数据形状：", processed_data.shape)
+        print("after processed：", processed_data.shape)
     new_dataset = TensorDataset(
         torch.from_numpy(processed_data).float(),  
         labels_tensor
@@ -148,7 +148,6 @@ def train(model, train_loader, criterion, optimizer, device, scheduler):
     accuracy = correct / total * 100
     
     return epoch_loss, accuracy, current_lr
-
 
 def validate(model, val_loader, criterion, device):
     model.eval()
