@@ -15,7 +15,6 @@ class EEGDataset(Dataset):
         self.dataset_name = args.dataset_name
         self.args = args
 
-
         if self.dataset_name == 'BNCI2014001-4':
             X = np.load('./data/' + 'BNCI2014001' + '/X.npy')
             y = np.load('./data/' + 'BNCI2014001' + '/labels.npy')
@@ -67,16 +66,11 @@ class EEGDataset(Dataset):
 
         self.X = X
         self.y = y
-
     
     def __len__(self):
         return len(self.y)
-
-
 
     def __getitem__(self, idx):
         sample = self.X[idx]
         label = self.y[idx]
         return torch.tensor(sample, dtype=torch.float32), torch.tensor(label, dtype=torch.long)  # Ensure label is of type long
-
-
